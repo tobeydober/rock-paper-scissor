@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    min-width: 400px;
+    padding: 100px 100px;
+    
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.paperButton,
+.scissorButton,
+.rockButton {
+    border: 5px solid black;
+    padding: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.scoreboard {
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+}
